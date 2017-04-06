@@ -18,7 +18,7 @@ class IconButton extends React.Component {
                     flex: 1,
                     width:this.props.size.toString(),
                     height:this.props.size.toString(),
-                    borderRadius: this.props.size/2,
+                    borderRadius: '50%',
                     backgroundColor: this.props.backgroundColor,
                     color: this.props.color,
                     textAlign: 'center',
@@ -28,7 +28,6 @@ class IconButton extends React.Component {
                 buttonIcon:{
                     width:'50%',
                     height:'50%',
-                    padding: '5'
                 }
             },
             icon:this.props.icon,
@@ -47,12 +46,12 @@ class IconButton extends React.Component {
     render() {
         return (
             <div>
-                <div style={this.state.styles.button}>
+                <Link to={'/'.concat(this.state.path).concat('/')} style={this.state.styles.button}>
                     <img style={this.state.styles.buttonIcon} src={this.state.icon}/>
-                    <Link to={'/'.concat(this.state.path).concat('/')}>
+                    <p>
                         {this.state.path}
-                    </Link>
-                </div>
+                    </p>
+                </Link>
             </div>
         );
   }

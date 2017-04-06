@@ -10,9 +10,9 @@ class Main extends React.Component {
     render() {
         return (
             <div style={styles.container}>
-                <IconButton path='map' size={150} backgroundColor='#93c47d' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/map-5-xxl.png'/>
-                <IconButton path='search' size={265} backgroundColor='#ffd966' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/microphone-3-xxl.png'/>
-                <IconButton path='settings' size={150} backgroundColor='#6fa8dc' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/gear-2-xxl.png'/>
+                <IconButton path='map' size='20vw' backgroundColor='#93c47d' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/map-5-xxl.png'/>
+                <IconButton path='search' size='30vw' backgroundColor='#ffd966' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/microphone-3-xxl.png'/>
+                <IconButton path='settings' size='20vw' backgroundColor='#6fa8dc' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/gear-2-xxl.png'/>
             </div>
         );
   }
