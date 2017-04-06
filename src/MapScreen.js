@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Map extends React.Component {
+class MapScreen extends React.Component {
     render(){
         return(
             <p>Map</p>
@@ -8,4 +8,4 @@ class Map extends React.Component {
     }
 }
 
-export default Map;
+export default MapScreen;
