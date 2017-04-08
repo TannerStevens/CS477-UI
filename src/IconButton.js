@@ -19,11 +19,13 @@ class IconButton extends React.Component {
                     width:this.props.size.toString(),
                     height:this.props.size.toString(),
                     borderRadius: '50%',
+                    borderStyle:'solid',
+                    borderColor:'#434343',
                     backgroundColor: this.props.backgroundColor,
                     color: this.props.color,
                     textAlign: 'center',
                     alignItems: 'center',
-                    justifyContent: 'center'
+                    justifyContent: 'center',
                 },
                 buttonIcon:{
                     width:'50%',
