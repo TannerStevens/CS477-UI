@@ -10,7 +10,7 @@ class SearchScreen extends React.Component {
                 <div style={styles.topContainer}>
                     <Hamburger/>
                     <div style={styles.searchBarContainer}>
-                        <div style={styles.searchBar}/>
+                        <textarea style={styles.searchBar}/>
                         <IconButton path='search' size='9vw' backgroundColor='#ffd966' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/microphone-3-xxl.png'/>
                     </div>
                 </div>
