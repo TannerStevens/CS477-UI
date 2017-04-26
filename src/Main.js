@@ -13,9 +13,9 @@ class Main extends React.Component {
     render() {
         return (
             <div style={styles.container}>
-                <IconButton path='map' size='20vw' backgroundColor='#93c47d' color='#434343' icon={MapIcon}/>
-                <IconButton path='search' size='30vw' backgroundColor='#ffd966' color='#434343' icon={MicIcon}/>
-                <IconButton path='settings' size='20vw' backgroundColor='#6fa8dc' color='#434343' icon={GearIcon}/>
+                <IconButton path='map' size='20vw' fontSize='2vmin' backgroundColor='#93c47d' color='#434343' icon={MapIcon}/>
+                <IconButton path='search' size='30vw' fontSize='2.5vmin' backgroundColor='#ffd966' color='#434343' icon={MicIcon}/>
+                <IconButton path='settings' size='20vw' fontSize='2vmin' backgroundColor='#6fa8dc' color='#434343' icon={GearIcon}/>
             </div>
         );
   }

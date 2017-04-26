@@ -26,7 +26,8 @@ const styles = {
         width:'12vw'
     },
     label:{
-        margin:'0 12px 0 0'
+        margin:'0 12px 0 0',
+        fontSize:'2.25vmin'
     }
 }
 

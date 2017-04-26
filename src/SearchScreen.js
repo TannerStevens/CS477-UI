@@ -11,7 +11,7 @@ class SearchScreen extends React.Component {
                     <Hamburger/>
                     <div style={styles.searchBarContainer}>
                         <textarea style={styles.searchBar}/>
-                        <IconButton path='search' size='9vw' backgroundColor='#ffd966' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/microphone-3-xxl.png'/>
+                        <IconButton path='search' size='9vw' fontSize='1.5vmin' backgroundColor='#ffd966' color='#434343' icon='http://www.iconsdb.com/icons/preview/white/microphone-3-xxl.png'/>
                     </div>
                 </div>
                 <div style={styles.searchResults}/>
@@ -45,6 +45,7 @@ const styles = {
         backgroundColor:'#fff2cc'
     },
     searchBar:{
+        fontSize:'2.5vmin',
         width:'60vw',
         height:'5vw',
         backgroundColor:'#ffffff'

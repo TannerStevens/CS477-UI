@@ -33,7 +33,8 @@ class IconButton extends React.Component {
                 }
             },
             icon:this.props.icon,
-            path:this.props.path
+            path:this.props.path,
+            fontSize:this.props.fontSize,
         });
     }
 
@@ -50,7 +51,7 @@ class IconButton extends React.Component {
             <div>
                 <Link to={'/'.concat(this.state.path).concat('/')} style={this.state.styles.button}>
                     <img style={this.state.styles.buttonIcon} src={this.state.icon}/>
-                    <p>
+                    <p style={{fontSize:this.state.fontSize}}>
                         {this.state.path}
                     </p>
                 </Link>
